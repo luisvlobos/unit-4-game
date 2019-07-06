@@ -1,0 +1,44 @@
+body {
+    background-image: url(../images/dark-honeycomb.png);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: #444;
+}
+
+.mainContainer {
+    margin: 0 auto;
+    text-align: center
+}
+
+.header {
+    font-size: 35px;
+    background-color: rgb(142, 242, 255);
+    padding: 10px 0 10px 0;
+    margin-bottom: 50px;
+}
+
+#randomNumber {
+    background-color: aquamarine;
+    height: 50px;
+    width: 100px;
+    margin: 0 auto; 
+    padding: 5px;
+}
+
+.scores {
+    background-color: cadetblue;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.winner {
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.playerTotal{
+    background-color: darkcyan;
+    margin: 0 auto;
+    width: 250px;
+    height: 150px;
+}
