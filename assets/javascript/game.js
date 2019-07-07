@@ -45,7 +45,6 @@ function youLose() {
 
 $('#one').on('click', function(){
     playerTotal = playerTotal + first;
-    console.log('New playerTotal= ' + playerTotal);
     $('#finalScore').text(playerTotal);
     if (playerTotal == ranNum){
         youWin();
@@ -56,7 +55,6 @@ $('#one').on('click', function(){
 
 $('#two').on('click', function(){
     playerTotal = playerTotal + second;
-    console.log('New playerTotal= ' + playerTotal);
     $('#finalScore').text(playerTotal);
     if (playerTotal == ranNum){
         youWin();
@@ -67,7 +65,6 @@ $('#two').on('click', function(){
 
 $('#three').on('click', function(){
     playerTotal = playerTotal + third;
-    console.log('New playerTotal= ' + playerTotal);
     $('#finalScore').text(playerTotal);
     if (playerTotal == ranNum){
         youWin();
@@ -78,7 +75,6 @@ $('#three').on('click', function(){
 
 $('#four').on('click', function(){
     playerTotal = playerTotal + fourth;
-    console.log('New playerTotal= ' + playerTotal);
     $('#finalScore').text(playerTotal);
     if (playerTotal == ranNum){
         youWin();
