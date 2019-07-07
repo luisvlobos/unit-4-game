@@ -4,6 +4,22 @@ body {
     color: #444;
 }
 
+h2 {
+    font-size: 25px;
+}
+
+span{
+    margin-top: 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    margin-right: 15px;
+}
+
 .mainContainer {
     margin: 0 auto;
     text-align: center
@@ -16,19 +32,21 @@ body {
     margin-bottom: 50px;
 }
 
-#randomNumber {
+.matchNumber {
     background-color: aquamarine;
     height: 50px;
-    width: 100px;
+    width: 150px;
     margin: 0 auto; 
     padding: 5px;
+    border-radius: 5px;
 }
 
 .scores {
     background-color: cadetblue;
-    height: 150px;
+    height: 100px;
     width: 150px;
-    margin: 0 auto;
+    margin: 10px auto;
+    border-radius: 5px;
 }
 
 .winner {
@@ -38,7 +56,9 @@ body {
 
 .playerTotal{
     background-color: darkcyan;
-    margin: 0 auto;
+    margin: 10px auto;
     width: 250px;
     height: 150px;
+    padding-top: 10px;
+    border-radius: 5px;
 }
